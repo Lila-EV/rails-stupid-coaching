@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    @query = params[:query]
+    @query = params[:question]
     @answer = coach_answer(@query) if @query
   end
 
