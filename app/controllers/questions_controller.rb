@@ -9,7 +9,7 @@ class QuestionsController < ApplicationController
 
   def coach_answer(message)
     if message.downcase == "i am going to work right now!"
-      ""
+      "Great! Have a nice day"
     elsif message.end_with?("?")
       "Silly question, get dressed and go to work!"
     else

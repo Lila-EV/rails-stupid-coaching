@@ -8,3 +8,17 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+body{
+  font-family:'Courier New', Courier, monospace;
+  margin: 3em;
+  padding: 5em;
+}
+
+#coach{
+  background-color:rgba(241, 236, 164, 0.638);
+}
+
+ h2{
+  font-style: italic;
+  font-weight: bold;
+}
